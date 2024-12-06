@@ -1,5 +1,7 @@
-# Green-System-Design
-Green system design: Estimating the environmental footprint of computing systems
+# Green System Design
+Setup Guide to measure metrics on a Ubuntu OS
+
+This guide is a reference for the paper: "Green system design: Estimating the environmental footprint of computing systems"
 
 In this README, you will find all the steps were done to setup the machine, to be able to measure energy and perfomance for the paper related.
 
