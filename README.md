@@ -3,7 +3,17 @@ Green system design: Estimating the environmental footprint of computing systems
 
 In this README, you will find all the steps were done to setup the machine, to be able to measure energy and perfomance for the paper related.
 
-## Scaphandre Installation
+## Tech Stack (Hardware/Software)
+The machine is an Intel PC architecture with Ubuntu OS. The tools needed:
+
+- Kubernetes
+- Docker
+- Prometheus
+- Grafana Dashboard
+
+## Setup Guide
+
+### Scaphandre Installation
 
 ```bash
 $ git clone https://github.com/hubblo-org/scaphandre
@@ -11,7 +21,7 @@ $ cd scaphandre
 $ helm install scaphandre helm/scaphandre
 ```
 
-## Prometheus Installation
+### Prometheus Installation
 ```bash
 $ helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 $ helm repo add kube-state-metrics https://kubernetes.github.io/kube-state-metrics
@@ -21,7 +31,7 @@ $ helm repo update
 $ kubectl port-forward deploy/prometheus-server 9090:9090
 ```
 
-## Docker Installation
+### Docker Installation
 ```bash
 $ sudo apt install docker.io
 $ docker -version 
@@ -29,7 +39,7 @@ $ sudo systemctl enable docker
 $ sudo systemctl start docker
 ```
 
-## Docker UI Installation (to enable Kubernetes Engine)
+### Docker UI Installation (to enable Kubernetes Engine)
 ```bash
 # Add Docker's official GPG key:
 $ sudo apt-get update
@@ -49,7 +59,7 @@ $ wget https://desktop.docker.com/linux/main/amd64/145265/docker-desktop-4.29.0-
 $ sudo apt-get install ./docker-desktop-4.29.0-amd64.deb
 ```
 
-## Prometheus Setup
+### Prometheus Setup
 ```bash
 $ helm upgrade --install prometheus prometheus-community/prometheus --set prometheus-node-exporter.hostRootFsMount.enabled=false --set prometheus-node-exporter.hostRootFsMount.mountPropagation='HostToContainer'
 ```
