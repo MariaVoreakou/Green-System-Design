@@ -1,9 +1,13 @@
-# Green System Design
-Setup Guide to measure metrics on a Ubuntu OS
+# Green System Design: Estimating the Environmental Footprint of Computing Systems
+
+This repository is made in order to accompany the paper with the aforementioned title, by providing access to the Testbed configuration of our system, as well as the experimentation data exported.
+
+
+## Setup Guide to measure metrics on a Ubuntu OS
 
 This guide is a reference for the paper: "Green system design: Estimating the environmental footprint of computing systems"
 
-In this README, you will find all the steps were done to setup the machine, to be able to measure energy and perfomance for the paper related.
+In this README, you will find all the steps were done to setup the machine, to be able to measure energy and perfomance using [Scaphandre](https://github.com/hubblo-org/scaphandre).
 
 ## Tech Stack (Hardware/Software)
 The machine is an Intel PC architecture with Ubuntu OS. The tools needed:
