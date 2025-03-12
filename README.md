@@ -1,4 +1,4 @@
-# Green System Design: Estimating the Environmental Footprint of Computing Systems
+# Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System
 
 This repository is made in order to accompany the paper with the aforementioned title, by providing access to the Testbed configuration of our system, as well as the experimentation data exported.
 
