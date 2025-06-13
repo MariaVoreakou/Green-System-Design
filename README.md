@@ -1,6 +1,6 @@
-# Green System Design: Estimating the Environmental Footprint of Computing Systems
+# Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System
 
-This repository is made in order to accompany the paper with the aforementioned title, by providing access to the Testbed configuration of our system, as well as the experimentation data exported.
+This repository has been created to accompany the paper with the aforementioned title. It provides access to the testbed configuration of our system, along with the exported experimental data. As part of our work, we utilized the RabbitMQ project [hua-geth](https://gitlab.com/hua-dev/geth), originally developed by another student at Harokopio University of Athens, Greece.
 
 ## 📄 IEEE Accepted Paper
 This repository contains the **accepted version** of our IEEE paper.
@@ -14,13 +14,20 @@ The author's accepted manuscript of the following article is located at `/paper`
 
 The paper will be presented in **System of Systems Engineering Conference SoSE 2025**.
 
-The published version is available at: [Waiting for URL]
+The accepted version is available at: [Arxiv.org](https://arxiv.org/html/2506.10693v1)
 
 ## 📚 Citation
 
 If you use this work, please cite it as:
 ```
-[Waiting for bibtex]
+@article{voreakou2025towards,
+  title={Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System},
+  author={Voreakou Maria, Kousiouris George, Nikolaidou Mara},
+  journal={https://arxiv.org/html/2506.10693v1},
+  pages={7},
+  year={2025},
+  publisher={IEEE 2025 20th Annual System of Systems Engineering Conference (SoSE)}
+}
 ```
 
 ## Setup Guide to measure metrics on a Ubuntu OS
