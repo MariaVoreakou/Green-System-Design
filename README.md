@@ -22,7 +22,7 @@ If you use this work, please cite it as:
 ```
 @article{voreakou2025towards,
   title={Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System},
-  author={Voreakou Maria, Kousiouris George, Nikolaidou Mara},
+  author={Voreakou, Maria and Kousiouris, George and Nikolaidou, Mara},
   journal={https://arxiv.org/html/2506.10693v1},
   pages={7},
   year={2025},
