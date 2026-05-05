@@ -1,6 +1,7 @@
 # Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System
 
 This repository has been created to accompany the paper with the aforementioned title. It provides access to the testbed configuration of our system, along with the exported experimental data. As part of our work, we utilized the RabbitMQ project [hua-geth](https://gitlab.com/hua-dev/geth), originally developed by another student at Harokopio University of Athens, Greece.
+In the next iterations, the whole ecosystem with the services are located [here](https://gitlab.com/mphil_rabbitmq_experiment)
 
 ### 📄 IEEE Published Paper & 📚 Citation
 This project is a following work of this [published paper](https://ieeexplore.ieee.org/document/11083800)
