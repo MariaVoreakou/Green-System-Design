@@ -2,31 +2,30 @@
 
 This repository has been created to accompany the paper with the aforementioned title. It provides access to the testbed configuration of our system, along with the exported experimental data. As part of our work, we utilized the RabbitMQ project [hua-geth](https://gitlab.com/hua-dev/geth), originally developed by another student at Harokopio University of Athens, Greece.
 
-## 📄 IEEE Accepted Paper
+### 📄 IEEE Published Paper & 📚 Citation
+This project is a following work of this [published paper](https://ieeexplore.ieee.org/document/11083800)
 This repository contains the **accepted version** of our IEEE paper.
-Please note that this is **not the final published version**.
+The accepted version is also available at: [Arxiv.org](https://arxiv.org/html/2506.10693v1)
 
-©2025 IEEE. Personal use of this material is permitted. 
-However, permission to reprint/republish this material for advertising or promotional purposes or 
+©2025 IEEE. Personal use of this material is permitted.
+However, permission to reprint/republish this material for advertising or promotional purposes or
 for creating new collective works for resale or redistribution must be obtained from the IEEE.
 
+The paper has been presented in **[System of Systems Engineering Conference SoSE 2025](https://sosengineering.org/2025/session-call/)**.
 The author's accepted manuscript of the following article is located at `/paper` of this repository.
-
-The paper will be presented in **System of Systems Engineering Conference SoSE 2025**.
-
-The accepted version is available at: [Arxiv.org](https://arxiv.org/html/2506.10693v1)
-
-## 📚 Citation
 
 If you use this work, please cite it as:
 ```
-@article{voreakou2025towards,
-  title={Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System},
+@INPROCEEDINGS{11083800,
   author={Voreakou, Maria and Kousiouris, George and Nikolaidou, Mara},
-  journal={https://arxiv.org/html/2506.10693v1},
-  pages={7},
+  booktitle={2025 20th Annual System of Systems Engineering Conference (SoSE)}, 
+  title={Towards Sustainable Computing: Exploring Energy Consumption Efficiency of Alternative Configurations and Workloads in an Open Source Messaging System}, 
   year={2025},
-  publisher={IEEE 2025 20th Annual System of Systems Engineering Conference (SoSE)}
+  volume={},
+  number={},
+  pages={1-7},
+  keywords={Energy consumption;Power demand;Computational modeling;Energy conservation;Microservice architectures;Computer architecture;Pricing;Benchmark testing;Internet of Things;System of systems;Sustainable Computing;Messaging Systems;RabbitMQ;Energy Consumption;Testbed;Sustainable Architectures;Open Energy Dataset},
+  doi={10.1109/SoSE66311.2025.11083800}}
 }
 ```
 
