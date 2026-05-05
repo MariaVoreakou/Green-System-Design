@@ -8,10 +8,12 @@ This repository contains the **accepted version** of our IEEE paper.
 The accepted version is also available at: [Arxiv.org](https://arxiv.org/html/2506.10693v1)
 
 ©2025 IEEE. Personal use of this material is permitted.
+
 However, permission to reprint/republish this material for advertising or promotional purposes or
 for creating new collective works for resale or redistribution must be obtained from the IEEE.
 
 The paper has been presented in **[System of Systems Engineering Conference SoSE 2025](https://sosengineering.org/2025/session-call/)**.
+
 The author's accepted manuscript of the following article is located at `/paper` of this repository.
 
 If you use this work, please cite it as:
